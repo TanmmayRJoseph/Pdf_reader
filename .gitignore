@@ -1,0 +1,38 @@
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# VS Code and IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# LangChain / Chroma DB
+*.sqlite3
+chroma.sqlite3
+**/chroma.sqlite3
+**/*.parquet
+**/*.pkl
+
+# LangChain Chroma collection folders (auto-generated UUIDs like yours)
+**/[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*/
+
+# Log files
+*.log
+
+# Generated files or intermediate outputs
+*.tmp
+*.bak
